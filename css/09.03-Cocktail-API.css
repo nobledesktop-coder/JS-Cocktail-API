@@ -1,0 +1,160 @@
+/* font-family: 'Macondo', cursive;
+font-family: 'Quicksand', sans-serif; */
+
+body { 
+    background-color: #555;
+    color: #555;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #999;
+    max-width: 1600px;
+    width: 95%;
+    min-height: 65vh;
+    background-color: #ccc;
+}
+
+.logo {
+    width: 450px;
+    /* lots of bottom margin to push form elements down below logo */
+    margin: 10px auto 60px;
+    display: block;
+}
+
+#cocktail-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #fff;
+    min-height: 300px;
+    padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+button, select, input, label {
+    width: 230px;
+    margin: 5px auto;
+    padding: 10px 16px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #555;
+    cursor: pointer;
+}
+ 
+button:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#cocktail-p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: darkred;
+}
+
+#cocktail-box img {
+    width: 350px;
+    height: 350px;
+}
+
+.letter-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 0;
+}
+
+.letter-btn:hover {
+    cursor: pointer;
+    background-color: #252;
+    color: #fff;
+}
+
+#show-all {
+    width: 30px; 
+    font-size: 1.25rem; 
+    margin: 0; 
+    padding:0;
+}
+
+#letter-btn-div {
+    padding: 5px;
+    text-align: center;
+    width: 80%;
+    max-width: 550px;
+    margin: 15px auto;
+    min-height: 50px;
+    /* border: 4px dashed orange; */
+}
+
+.drink-div {
+    position: relative;
+    height: 620px;
+    padding: 15px;
+    width: 300px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #888;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.drink-div img {
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    border-radius: 10px;
+    width: 92% !important;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    /* max-height: 130px; */
+    padding: 10px;
+    /* overflow-y: auto; */
+}
+
+h2 {
+    font-family: 'Macondo', cursive;
+    font-size: 2rem; /* h1 font size */
+    margin: 15px auto;
+}
+
+h3 {
+    font-family: 'Macondo', cursive;
+    color: #555;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.drink-text-div {
+    margin-top: 15px; /* keep this scrolling box's text from crowding the text above */
+    min-height: 75px;
+    max-height: 175px;
+    overflow-y: auto; /* scroll bar as needed */
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    margin-left: 10px; /* move bullets over to left */
+    line-height: 1.25rem;
+}
